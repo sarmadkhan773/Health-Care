@@ -1,0 +1,60 @@
+@import "tailwindcss";
+body{                   
+  margin: 0;                         
+  padding: 0;             
+}
+.nav{
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  font-family: 'Inter', 'Roboto', sans-serif;  
+  font-weight: 700;                  
+  font-size: 3rem;                   
+  color: #ECE7D1;                    
+  letter-spacing: -0.5px;            
+  line-height: 1.2;                  
+  margin-bottom: 1rem;              
+}
+.btn{
+  background:#249E94;
+}
+.btn:hover{
+  background: #0C7779;
+  transition: all 0.3s ease-in-out;
+}
+[data-aos] {
+  opacity: 1 !important;            /* Disable fade */
+  transform: translateY(24px);      /* Transform only */
+}
+
+[data-aos].aos-animate {
+  transform: translateY(0);
+}
+/* Fade In Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.6s forwards;
+  opacity: 0;
+}
+
+.delay-200 { animation-delay: 0.2s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
+.delay-600 { animation-delay: 0.6s; }
+.delay-700 { animation-delay: 0.7s; }
+.delay-800 { animation-delay: 0.8s; }
+
+/* Slow Pulse Animation for background blobs */
+.animate-pulse-slow {
+  animation: pulse 6s infinite;
+}
