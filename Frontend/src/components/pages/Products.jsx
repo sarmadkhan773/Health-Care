@@ -98,7 +98,7 @@ const Products = () => {
             Our Medical Store
           </h1>
           <p className="text-sm md:text-lg text-white/90 mb-6">
-            Browse high-quality medicines and healthcare products.
+            Experience smarter healthcare with authentic medicines, wellness essentials, and seamless online pharmacy services.
           </p>
         </div>
       </section>

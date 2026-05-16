@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import CustomerCard from "../CustomerCard";
 
 const customers = [
@@ -18,6 +21,9 @@ const customers = [
 ];
 
 const Customers = () => {
+  useEffect(() => {
+      AOS.init({ duration: 1000, easing: "ease-out-cubic", once: true });
+    }, []);
   return (
     <div className="w-full bg-gray-50 min-h-screen">
       

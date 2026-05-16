@@ -22,10 +22,10 @@ const Footer = () => {
         <div>
           <h3 className="text-white font-semibold mb-4">Quick Links</h3>
           <ul className="space-y-2">
-            <li className="hover:text-yellow-100 transition cursor-pointer">Home</li>
-            <li className="hover:text-yellow-100 transition cursor-pointer">Patients</li>
-            <li className="hover:text-yellow-100 transition cursor-pointer">Store</li>
-            <li className="hover:text-yellow-100 transition cursor-pointer">Contact</li>
+            <li className="hover:text-yellow-300 transition cursor-pointer">Home</li>
+            <li className="hover:text-yellow-300 transition cursor-pointer">Patients</li>
+            <li className="hover:text-yellow-300 transition cursor-pointer">Store</li>
+            <li className="hover:text-yellow-300 transition cursor-pointer">Contact</li>
           </ul>
         </div>
 
@@ -33,10 +33,10 @@ const Footer = () => {
         <div>
           <h3 className="text-white font-semibold mb-4">Services</h3>
           <ul className="space-y-2">
-            <li className="hover:text-yellow-100 transition cursor-pointer">Patient Management</li>
-            <li className="hover:text-yellow-100 transition cursor-pointer">Pharmacy System</li>
-            <li className="hover:text-yellow-100 transition cursor-pointer">Online Store</li>
-            <li className="hover:text-yellow-100 transition cursor-pointer">Healthcare Insights</li>
+            <li className="hover:text-yellow-300 transition cursor-pointer">Patient Management</li>
+            <li className="hover:text-yellow-300 transition cursor-pointer">Pharmacy System</li>
+            <li className="hover:text-yellow-300 transition cursor-pointer">Online Store</li>
+            <li className="hover:text-yellow-300 transition cursor-pointer">Healthcare Insights</li>
           </ul>
         </div>
 

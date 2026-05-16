@@ -27,7 +27,7 @@ const HealthcareLogin = () => {
       if (response.ok) {
         localStorage.setItem("userEmail", data.email);
         setMessage("Login Successful ");
-        setTimeout(() => navigate("/healthcare"), 1200);
+        setTimeout(() => navigate("/"), 1200);
       } else {
         setMessage(data.message);
       }

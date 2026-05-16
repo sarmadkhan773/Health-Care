@@ -95,8 +95,8 @@ const About = () => {
           <p className="text-sm sm:text-base md:text-lg lg:text-xl mb-3 max-w-2xl mx-auto">
             Revolutionizing healthcare with cutting-edge technology, personalized care, and unparalleled service excellence.
           </p>
-          <button className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
-            Learn More
+          <button className="btn text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+            Explore Services
           </button>
         </div>
 

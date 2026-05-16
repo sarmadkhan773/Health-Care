@@ -211,67 +211,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="grid grid-cols-1 m-10 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
-        {/* Patients Card */}
-        <Link
-          to="/patients"
-          data-aos="fade-up"
-          className="group relative block rounded-2xl border border-gray-200 p-6 sm:p-8 bg-white shadow-md hover:shadow-xl transition transform hover:-translate-y-2"
-        >
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-2xl blur opacity-20 group-hover:opacity-100 transition" />
-          <div className="relative z-10">
-            <div className="flex items-center gap-3 mb-4">
-              <HeartPulse className="text-blue-600 w-7 h-7" />
-              <h2 className="text-2xl font-bold text-gray-800">Patients</h2>
-            </div>
-            <p className="text-gray-600 leading-relaxed">
-              Securely manage patient profiles, medical records, appointments,
-              and treatment history in one place.
-            </p>
-          </div>
-        </Link>
-
-        {/* Customers Card */}
-        <Link
-          to="/customers"
-          data-aos="fade-up"
-          data-aos-delay="100"
-          className="group relative block rounded-2xl border border-gray-200 p-6 sm:p-8 bg-white shadow-md hover:shadow-xl transition transform hover:-translate-y-2"
-        >
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-green-400 to-teal-500 rounded-2xl blur opacity-20 group-hover:opacity-100 transition" />
-          <div className="relative z-10">
-            <div className="flex items-center gap-3 mb-4">
-              <Users className="text-teal-600 w-7 h-7" />
-              <h2 className="text-2xl font-bold text-gray-800">Customers</h2>
-            </div>
-            <p className="text-gray-600 leading-relaxed">
-              Track customer information, prescriptions, and purchase history
-              with a streamlined and intuitive interface.
-            </p>
-          </div>
-        </Link>
-
-        {/* Store Card */}
-        <Link
-          to="/products"
-          data-aos="fade-up"
-          data-aos-delay="200"
-          className="group relative block rounded-2xl border border-gray-200 p-6 sm:p-8 bg-white shadow-md hover:shadow-xl transition transform hover:-translate-y-2"
-        >
-          <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-500 to-pink-500 rounded-2xl blur opacity-20 group-hover:opacity-100 transition" />
-          <div className="relative z-10">
-            <div className="flex items-center gap-3 mb-4">
-              <ShoppingCart className="text-purple-600 w-7 h-7" />
-              <h2 className="text-2xl font-bold text-gray-800">Store</h2>
-            </div>
-            <p className="text-gray-600 leading-relaxed">
-              Browse and purchase medicines, medical equipment, and healthcare
-              essentials with confidence and convenience.
-            </p>
-          </div>
-        </Link>
-      </section>
+      
 
       {/* Advanced Services Section */}
       <section className="px-6 lg:px-20 mb-24">
@@ -472,7 +412,7 @@ const Home = () => {
               {/* Button */}
               <button
                 type="submit"
-                className="w-full flex items-center justify-center gap-2 bg-blue-600 text-white py-3 rounded-xl font-semibold hover:bg-blue-700 transition transform hover:scale-105 shadow-md"
+                className="btn w-full flex items-center justify-center gap-2 bg-blue-600 text-white py-3 rounded-xl font-semibold hover:bg-blue-700 transition transform hover:scale-105 shadow-md"
               >
                 <Send size={18} />
                 Send Message

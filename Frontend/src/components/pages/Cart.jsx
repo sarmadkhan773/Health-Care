@@ -1,8 +1,10 @@
 import { useEffect, useState } from "react";
 import { Trash2 } from "lucide-react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Cart = () => {
-  const userEmail = localStorage.getItem("userEmail"); // ✅ define userEmail
+  const userEmail = localStorage.getItem("userEmail");
   const [cartItems, setCartItems] = useState([]);
 
   // ================= FETCH CART FROM BACKEND =================
